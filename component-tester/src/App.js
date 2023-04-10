@@ -1,9 +1,11 @@
-import NavbarAttempt from './TestComponents/NavbarAttempt'
+import Navbar from './TestComponents/NavbarResponsive/DrawerAppBar';
+import ProjectCard from "./TestComponents/ProjectCardInteractive";
 
 function App() {
   return (
     <div>
-      <NavbarAttempt/>
+      <Navbar/>
+      <ProjectCard/>
     </div>
   );
 }
